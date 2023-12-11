@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/A-xian28/B11123229-Lab-Pan.git",
   "author": "sherryy <y31305xian@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
 }
