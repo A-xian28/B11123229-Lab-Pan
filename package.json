@@ -1,6 +1,9 @@
 {
   "name": "B11123229-Lab-Pan",
   "version": "1.0.0",
+  "scripts": {
+    "test": "env TZ='Asia/Taipei' ts-node src/index.ts"
+  },
   "main": "index.js",
   "repository": "https://github.com/A-xian28/B11123229-Lab-Pan.git",
   "author": "sherryy <y31305xian@gmail.com>",
