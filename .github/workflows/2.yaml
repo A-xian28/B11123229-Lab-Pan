@@ -1,0 +1,21 @@
+name: GitHub Small Lab
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install packages
+        run: yarn install
+
+      - name: Show version info
+        run: yarn run test
